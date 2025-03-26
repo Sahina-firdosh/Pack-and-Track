@@ -1,0 +1,122 @@
+main {
+    padding-top: 12vh;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 5vh auto;
+}
+
+main h2 {
+    color: #222;
+    margin-bottom: 20px;
+    font-size: 4vh;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+main img:hover {
+    transform: scale(1.05);
+}
+
+main p {
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+main p strong {
+    font-weight: bold;
+    color: #000;
+}
+
+.add-to-cart {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-to-cart:hover {
+    background-color: #e07a00;
+    transform: translateY(-3px);
+}
+
+.product-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.product_img {
+    width: 45%;
+}
+
+.prod_description {
+    width: 55%;
+}
+
+.price-rent{
+    display: flex;
+    gap: 5vh;
+}
+
+.prod_description form {
+    width: 300px;
+}
+
+.prod_description label {
+    font-size: 16px;
+    margin-right: 15px;
+    color: #333;
+    margin-bottom: 2vh;
+}
+
+.prod_description input[type="radio"] {
+    margin-right: 8px;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+
+.prod_description input[type="number"] {
+    width: 9vw;
+    padding: 10px;
+    margin-bottom: 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button.add-to-cart {
+    cursor: pointer;
+    margin-top: 0;
+}
+
+footer{
+    position: fixed;
+}
+
+.php_error{
+    color: crimson;
+}

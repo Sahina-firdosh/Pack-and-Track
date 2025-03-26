@@ -1,0 +1,73 @@
+main{
+    padding-top: 5vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.category-page {
+    text-align: center;
+    padding: 10vh 20px;
+}
+
+.category-page h1 { 
+    font-size: 5vh;
+    margin-bottom: 6vh;
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+.product-grid {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto; 
+    margin-bottom: 20px;
+    color: rgb(67, 63, 90);
+    font-size: 2.8vh;
+}
+
+.product img {
+    height: 200px; 
+    width: auto; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product a {
+    text-decoration: none;
+    color: inherit; 
+}
+  
+.product h3{
+    color: #2c3e50;
+    font-size: 3.2vh;
+}
+
+.product-description {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+  .add-to-cart {
+    background-color: #ff8c00; /* Use your brand's color */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Add some space above the button */
+  }
+  
+  .add-to-cart:hover {
+    background-color: #e07a00; /* Darken on hover */
+  }
+  

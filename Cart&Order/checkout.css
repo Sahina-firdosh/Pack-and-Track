@@ -1,0 +1,133 @@
+/* General Main Styling */
+main {
+    padding: 18vh 10vh 10vh 10vh;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+
+.checkout-form h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+  /* Container for Form and Summary */
+  .checkout-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Section */
+  .checkout-form {
+    width: 48%;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    padding: 10px 17px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #e07b00;
+  }
+  
+  /* Order Summary Section */
+  /* Order Summary Section */
+.order-summary {
+    width: 48%;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0;
+    text-align: center;
+  }
+  
+  .order-summary h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .order-summary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-summary li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px;
+  }
+  
+  .order-summary li:last-child {
+    border-bottom: none;
+  }
+  
+  .order-summary img {
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .order-summary span {
+    flex: 1;
+    font-size: 16px;
+    color: #2c3e50;
+  }
+  
+  .order-summary h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ff8c00;
+  }
+  
+  .order-summary a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ff8c00;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .order-summary a:hover {
+    color: #e07b00;
+    text-decoration: underline;
+  }
+  
+  
+  
+footer{
+    position: fixed;
+}

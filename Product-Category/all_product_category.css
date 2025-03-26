@@ -1,0 +1,102 @@
+header{
+    z-index: 3;
+}
+main{
+    padding-top: 15vh;
+    z-index: 2;
+}
+
+main h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+section {
+    margin: 0 10px 40px 10px;
+    padding: 1vh 0vh 0 0;
+    /* border: 2px solid #2c3e50; */
+    text-align: center;
+    /* border-radius: 20px; */
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 1vh;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 99%; /* This accommodates 3 slides (300px × 3) + gaps (25px × 2) + some extra padding */
+    margin: 0 auto; 
+}
+
+.slider {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    transition: transform 0.5s ease;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    /* scroll-behavior: smooth; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 33%;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.slide img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.name_price{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 5vh;
+
+}
+
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #ff8c00;
+}
+
+a {
+    color: #ff8c00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2c3e50;
+}
