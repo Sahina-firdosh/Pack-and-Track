@@ -104,8 +104,6 @@ ADD COLUMN brand VARCHAR(100),
 ADD COLUMN product_dimension VARCHAR(50),
 ADD COLUMN rent DECIMAL(10, 2);
 
--- Assuming these are the product IDs (1-18) based on the order of your previous insert
--- Please double-check if the order matches your database 
 
 -- Camping Gear (1-6)
 UPDATE Products SET long_description = 'This spacious family tent is perfect for your next camping trip! It features a durable, weather-resistant design and is easy to set up.', brand = 'Coleman', product_dimension = '10ft x 8ft x 6ft', rent = 25.00 WHERE product_id = 1;
